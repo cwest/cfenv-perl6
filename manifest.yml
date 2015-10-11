@@ -1,0 +1,7 @@
+---
+applications:
+- name: cfenv-perl6
+  buildpack: https://github.com/pnu/heroku-buildpack-rakudo
+  env:
+    BUILDPACK_RAKUDO_URL: https://www.dropbox.com/s/spui3p1bbqhdqhv
+    RAKUDO_VERSION: 2015.9.329.g.20.a.4.df.2

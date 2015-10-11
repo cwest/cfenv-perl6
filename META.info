@@ -1,0 +1,4 @@
+{
+   "name": "cfenv-perl6",
+    "depends": [ "Bailador", "JSON::Fast" ]
+}
