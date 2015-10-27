@@ -9,7 +9,9 @@ get '/' => sub {
 
     my $instance_id = %*ENV<CF_INSTANCE_INDEX> || 'none';
 
-    return to-json({instance => $instance_id});
+    return to-json({
+        instance => $instance_id
+    });
 }
 
 baile( $port );
